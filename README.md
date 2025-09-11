@@ -35,10 +35,18 @@ pip install -r requirements.txt
 
 ### Docker Installation
 
+**For GPU Systems:**
 ```bash
 git clone https://github.com/FrameNetBrasil/lusuggestion.git
 cd lusuggestion
 docker-compose up --build
+```
+
+**For CPU-Only Systems:**
+```bash
+git clone https://github.com/FrameNetBrasil/lusuggestion.git
+cd lusuggestion
+docker-compose -f docker-compose.cpu.yml up --build
 ```
 
 ## 📖 Usage
@@ -273,11 +281,36 @@ The application automatically uses GPU acceleration when available:
 - Install `llama-cpp-python[cublas]` for GPU support
 - Docker containers include GPU support via nvidia-docker
 
+### CPU-Only Systems
+
+The application works perfectly on CPU-only systems with automatic fallback:
+
+**Recommended Configuration:**
+```bash
+# Use CPU-optimized Docker compose
+docker-compose -f docker-compose.cpu.yml up --build
+
+# Or run locally
+python app.py --download --model-file Meta-Llama-3.1-8B-Instruct-Q4_0.gguf
+```
+
+**CPU Performance Tips:**
+- Use Q4_K_M or Q4_0 quantization for best CPU performance
+- Ensure 8GB+ RAM available (16GB+ recommended)
+- Expect 2-5 minutes per generation (vs 30-60 seconds on GPU)
+- Consider reducing `target_count` to 5-10 for faster responses
+
 ### Memory Management
 
+**For GPU Systems:**
 - Use appropriate quantization levels based on available VRAM
 - Q4_K_M recommended for most use cases (good quality/speed balance)
 - Q8_0 for maximum quality with sufficient VRAM
+
+**For CPU Systems:**
+- Q4_K_M or Q4_0 recommended for best speed/quality balance
+- Ensure sufficient system RAM (1.5x model size + 2GB overhead)
+- Monitor system memory usage during generation
 
 ## 🤝 Contributing
 
