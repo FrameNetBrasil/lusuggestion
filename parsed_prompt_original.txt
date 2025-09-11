@@ -1,0 +1,236 @@
+You are an expert lexicographer working on FrameNet Brasil (FN-Br).
+Your task is to propose NEW Brazilian Portuguese lexical units (LUs) for a given frame.
+
+DEFINITIONS (FN-Br aligned):
+- Frame: a conceptual structure describing a situation/event/object and its participants.
+- Lexical Unit (LU): lemma + part of speech (one sense) that EVOKES the target frame.
+- Core vs peripheral FEs are not required in the output, but use them implicitly to judge sense alignment.
+
+⚠️  EXISTING LEXICAL UNITS TO AVOID (CRITICAL) ⚠️
+The following LUs already exist for this frame and MUST BE COMPLETELY AVOIDED:
+- anilha.noun - placa de peso plana e pesada, geralmente feita de ferro fundido
+- antiguidade.noun - objeto antigo que pode ter valor histórico ou emocional.
+- arame.noun - fio de metal flexível.
+- aspirador.noun - Eletrodoméstico projetado para a limpeza usando sucção para realizar a limpeza.
+- assento.noun - lugar onde se possa sentar
+- azulejo.noun - revestimento para paredes
+- balança.noun - instrumento que mede a massa de um corpo.
+- balão.noun - objeto inflável de borracha, geralmente utilizado como adorno em festas
+- bandagem.noun
+- bandeja.noun - objeto utilizado para carregar comidas, servir convidados em uma festa. Normalmente é feita de plástico ou metal.
+- barbeador.noun
+- barrote.noun - peça alongada de madeira ou outro material, muitas vezes utilizada em construção ou para fins de sustentação.
+- bastão.noun - longo pedaço de pau redondo, que se pode segurar na mão e que tem funcionalidades diversas.
+- bebedouro.noun - Fonte artificial de água, muito utilizada em prédios públicos.
+- berço.noun - estrutura destinada a acomodar um bebê ou criança pequena para dormir, geralmente cercada por grades para segurança.
+- bico de mamadeira.noun
+- bola.noun - brinquedo esférico inflado, feito de borracha ou outros materiais
+- bolsa.noun - objeto utilizado para guardar e carregar outros objetos menores. Normalmente é pendurada no ombro ou carregada na mão.
+- bomba de ar.noun - dispositivo mecânico portátil utilizado para comprimir e transferir ar para dentro de objetos infláveis, como pneus de bicicleta, bolas esportivas, colchões de ar, entre outros.
+- boneco de olinda.noun - boneco gigante confeccionados com papel machê, fibra, tecido e outros materiais utilizado nos desfiles de carnaval de Olinda, representando personagens históricos, míticos ou contemporâneos.
+- borracha.noun - material flexível com diversos usos
+- botão.noun - peça de comando de um mecanismo ou de um aparelho elétrico.
+- brasão.noun - Conjunto de sinais, insígnias e ornamentos do escudo de um Estado, uma cidade, uma família.
+- brinquedo.noun - objeto ou atividade lúdica voltado ao lazer e geralmente associado com crianças.
+- bucha.noun
+- cabide.noun - instrumento para pendurar roupas
+- cabideiro.noun - Móvel com cabides, usado para pendurar roupa.
+- cadeira.noun - Objeto usado para sentar.
+- caixa.noun - recipiente normalmente cúbico ou retangular para armazenamento de itens diversos
+- câmera.noun - Aparelho óptico composto por lentes capazes de captar luzes externas para sensibilizar uma superfície sensível - um filme ou um sensor - onde se registra imagens paradas ou em movimento.
+- camisa.noun
+- caneca.noun - recipiente para líquidos, dotado de uma asa, utilizado sem o acompanhamento de pires.
+- caneta.noun
+- capacho.noun - pequeno tapete utilizado na porta de entrada.
+- capote.noun - capa interna do charuto que segura o tabaco da queima.
+- carga.noun - materiais a serem deslocados de um lugar para outro
+- carrinho.noun - artefato com rodas utilizado para transportar bebês e crianças pequenas. 
+- carta.noun - folha de papel escrita, com destinatário e remetente
+- cartão.noun - peça plana e retangular feita de papel ou outro material, frequentemente usada para transmitir informações, mensagens ou realizar transações.
+- cartela.noun - objeto normalmente retangular para guardar comprimidos ou outras miudezas
+- castiçal.noun - utensílio que possui uma base para colocar vela.
+- catálogo.noun - objeto que lista por ordem alfabética ou por enumeração itens.
+- celular.noun - telefone móvel
+- cerâmica.noun - material de barro, normalmente para uso culinário ou artístico
+- chupeta.noun - Bico.
+- chuveiro.noun - objeto elétrico localizado prioritariamente no banheiro, e solta água quente para banho, higiene e limpeza. Normalmente, existem modos nele com diferentes níveis de aquecimento da água.
+- cinematógrafo.noun - equipamento criado no fim do século XIX, capaz de registrar uma sequência de objetos em movimento e reproduzi-la.
+- coberta.noun - pano utilizado para cobrir camas e pessoas.
+- cobertor.noun - pano utilizado para cobrir camas e pessoas.
+- coletor.noun - utensílio em plástico ou borracha, para fins de recolhimento de excreções ou fluxo menstrual
+- colher.noun - talher em formato esférico e côncavo utilizado para pegar alimentos
+- computador.noun - equipamento eletrônico para o processamento de dados
+- concha.noun - Utensílio utilizado na cozinha para pegar ingredientes.
+- controle.noun - Dispositivo utilizado para acionar ou dar comandos.
+- copo.noun - recipiente cilíndrico aberto
+- cotonete.noun - pequeno bastão com algodão nas extremidades, usado para limpar ou aplicar substâncias em áreas sensíveis do corpo.
+- cruz.noun - Pedaços de madeira postos em posição perpendicular.
+- dispensador.noun - dispositivo para distribuir um produto, geralmente em doses ou quantidades pequenas ou uniformes
+- enfeite.noun - O que pode ser utilizado para enfeitar; ornamento.
+- enxada.noun - Instrumento com uma lâmina de metal usado para capinar ou arar a terra.
+- escada.noun - construção normalmente em madeira, alvenaria ou metal, utilizada para subirmos a determinada altura ou pavimento
+- escova de cabelo.noun - objeto com cerdas utilizado para desembaraçar e modelar cabelos.
+- escova de dente.noun - objeto de higiene pessoal utilizado para limpeza dos dentes.
+- escudo.noun - Peça de armadura utilizada no braço para proteger um combatente de ataques inimigos.
+- espelho.noun - artefato utilizado para reflexão de imagens.
+- esteira.noun - aparelho para exercícios físicos comum em academias com o objetivo de propiciar a possibilidade de simular uma caminhada e/ou corrida sem se deslocar.
+- estilete.noun - Lâmina utilizada como material escolar ou de escritório.
+- estufa.noun - equipamento que armazena alimentos permitindo que eles permaneçam aquecidos, geralmente usado em estabelecimentos comerciais.
+- extensão.noun - fio utilizado para prolongar o alcance de uma tomada. 
+- fio.noun - objeto comprido utilizado para costurar ou anexar coisas
+- fivela.noun - peça de formato variado que serve para unir as duas extremidades de cinto, correia etc.
+- fogo de artifício.noun - explosivos de efeito pirotécnico utilizados em certos festejos.
+- fósforo.noun - Pequeno palito de madeira com a ponta de material inflamável.
+- fralda.noun - item descartável de uso do bebê ou do indivíduo adulto para suporte de dejetos e urina
+- frasco.noun - recipiente normalmente de vidro ou plástico, utilizado para armazenar líquidos
+- frigideira.noun - tipo de panela com um formato mais plano e baixo.
+- garrafa.noun - recipiente cilíndrico normalmente em vidro ou plástico utilizado para armazenamento de líquidos
+- geladeira.noun
+- gerador.noun - aparelho que produz energia elétrica por meio de energia mecânica.
+- gilete.noun - lâmina de barbear afiada e descartável.
+- guarda-chuva.noun - objeto utilizado para proteção contra chuva.
+- guarda-sol.noun - artefato em formato de guarda-chuva, cuja função é oferecer proteção contra a exposição direta ao sol.
+- guardanapo.noun - Item utilizado para limpar as mãos e/ou a boca durante refeições. Pode ser de pano ou papel.
+- hélice.noun - Hastes conectadas em um mesmo centro que provocam a movimentação do ar e/ou movimento.
+- impressora.noun - máquina que realiza cópias e impressões, geralmente é  pequena e é possível que se tenha em residências para uso doméstico. 
+- internet.noun - transmissão de um sinal que interliga computadores, celulares e outros aparelhos eletrônicos em uma rede de comunicação por todo o mundo.  
+- interruptor.noun - Dispositivo pelo qual se interrompe (de forma reversível) a passagem de um sinal em um circuito elétrico ou eletrônico.
+- irrigador.noun - utensílio de jardim utilizado para promover a irrigação de plantas.
+- janela.noun - abertura em imóveis, revestida de madeira, vidro ou outros materiais, para ventilação do ambiente e entrada de luz solar
+- lâmina.noun - Placa ou chapa de metal.
+- lampião.noun - lanterna, portátil ou fixa, constituída por um botijão provido de combustível e um pavio que se acende para iluminar.
+- lança.noun - artefato caracterizado por ser uma arma longa com pontas afiadas que pode ser empunhada ou arremessada. 
+- lanterna.noun - Utensilio projetado com vidros que projeta luz.
+- lata.noun - recipiente metálico para armazenamento de bebidas, alimentos ou outras substâncias
+- laurel.noun - coroa de louros, feita com folhas de loureiros.
+- lenço.noun - pedaço geralmente quadrado oou retangular de tecido ou papel com que uma pessoa limpa o suor do rosto ou assoa o nariz.
+- lençol.noun - artefato feito de tecido utilizado para cobrir pessoas e/ou objetos
+- lente.noun
+- leque.noun - Abano feito de material leve.
+- linha.noun - fio fino de fibras como algodão, linho, etc, torcidas.
+- lupa.noun - instrumento óptico que amplia imagens
+- luva cirúrgica.noun - objeto plástico de uso médico para preservação contra infecções na manipulação de  materiais variados.
+- mala.noun - Objeto utilizado para transporta roupas e objetos durante viagens.
+- manual.noun - folheto ou carderno com instruções sobre determinado dispositivo ou situação
+- mármore.noun - tipo de pedra branca utilizada em revestimentos e outros tiposde construções
+- megafone.noun - dispositivo de comunicação portátil  em forma de cone usado para amplificar a voz de uma pessoa
+- mesa.noun - table.
+- mesa.noun - table.
+- microfone.noun - Dispositivo eletrônico que converte ondas sonoras em sinais elétricos, permitindo a captação e transmissão de áudio.
+- mochila.noun - saco de lona ou tecido sintético resistente que se leva às costas seguro por correias, us. por soldados, excursionistas, escolares etc. para transportar artigos de uso pessoal, provisões, material etc.
+- mola.noun - instrumento de contração e expansão, permitindo impulso, para diversos usos
+- molde.noun - modelo de papel, cartão etc. pelo qual se corta algo.
+- montanha russa.noun - Brinquedo de parque formado por um trem e trilhos que fazem padrões de subidas e decidas para a experiencia do usuário.
+- muro.noun - construção geralmente em pedras ou alvenaria que serve de proteção ou cercamento de um imóvel 
+- origami.noun - Dobradura de papel de origem japonesa.
+- paleta.noun - artefato feito de madeira, plástico ou outro material, com um orifício para alojar o polegar e uma reentrância ao lado do orifício para segurar a paleta com os dedos indicador e médio, usado pelos pintores para depositar ou misturar tintas.
+- pano de prato.noun - Item de tecido utilizado para secar utensílios de cozinha.
+- pano.noun - pedaço de tecido utilizado, geralmente, para a limpeza de superfícies
+- panos.noun - tecidos para fins de limpeza
+- papel toalha.noun - Papel descartável usado para secar ou limpar.
+- papel.noun - um tipo de folha descartável usada para secar ou limpar.
+- pau de selfie.noun - Artefato que auxilia ganhar distância para tirar fotos, geralmente, selfies. 
+- pilão.noun - ferramenta usada pra triturar, bater.
+- pincel.noun - ferramenta composta por um cabo geralmente de madeira ou plástico e cerdas inseridas em uma extremidade, utilizada para aplicar tinta, pigmentos ou outros materiais em superfícies de obras artísticas.
+- pintura.noun - obra artística feita com pincel e ou outros materiais em uma superfície
+- pipa.noun - Brinquedo de forma losangular que é ligado por uma linha e sustentado pelo ar.
+- placa.noun - Chapa, lâmina.
+- plaqueta.noun
+- pneu.noun - objeto usado em carros para movimentação do veículo.
+- pochete.noun - pequena bolsa feita para ser presa à cintura.
+- poleiro.noun - apoio de madeira onde aves pousam e dormem.
+- porta.noun - objeto em formato retangular, normalmente em madeira, utilzado para fechar e abrir ambientes
+- portão.noun - grande porta em madeira ou metal
+- poste.noun - construção para fins de iluminação pública
+- pote.noun - recipiente em plástico ou vidro utilizado para diversos tipos de armazenamento
+- prato.noun - Objeto utilizado como recipiente de alimentos. 
+- preservativo.noun - invólucro de borracha para o orgão sexual, que objetiva contracepção e prevenção de doenças sexualmente transmissíveis
+- prisma.noun - Forma geométrica (poliedro) de vidro ou cristal com capacidade de decompor a luz em diversas frequências.
+- projetor.noun - Aparelho utilizado para projetar imagens em um superfície.
+- quadro.noun - Superfície lisa, plana ou ligeiramente côncava, feita de madeira ou de ardósia, em geral pintada de negro, muito usada nas escolas para sobre ela escrever-se a giz.
+- quinquilharia.noun - objeto sem valor ou importância; bugiganga.
+- ralo.noun - local por onde a água escorre para o bueiro ou para a rua.
+- rede.noun - artefato feito de tecido resistente para ser pendurado entre dois pontos fixos, como duas patredes, para pessoas se deitarem.
+- relógio.noun - Objeto usado para indicar as horas, pode ser usado no pulso ou de parede.
+- roda.noun - Objeto mais ou menos circular; círculo.
+- roleta.noun - roda girante usada em jogos nos quais o ponto de parada do giro indica um resultado ou uma premiação.
+- sabonete.noun
+- semáforo.noun - Sinalização de trânsito.
+- sinal.noun - sinalização de trânsito que possui luzes verde, amarela e vermelha, para indicar se o trânsito deve prosseguir ou parar; semáforo.
+- sousplat.noun - suporte para o prato geralmente redondo e pode ser produzido em diversos materiais.
+- tampa.noun - objeto para vedação de recipientes
+- tecnologia.noun - technology.
+- tela.noun
+- telefone.noun - objeto eletrônico usado para comunicação entre duas pessoas.
+- televisão.noun - aparelho que transmite conteúdo audiovisual através de uma tela plana.
+- terço.noun - Objeto usado para rezar.
+- tesoura.noun - objeto metálico de duas faces cortantes
+- tesouro.noun - artefato de grande valor monetário.
+- tijolo.noun - bloco de construção geralmente feito de argila ou concreto, usado na construção de paredes e estruturas.
+- toboágua.noun - um escorregador aquático, sendo um tipo de escorregador ou tobogã em forma de um tubo cortado ao meio feito para uso recreacional, tipicamente com um jato de água em seu topo, permitindo que as pessoas deslizem na corrente de água gerada por ele.
+- toco.noun - um pequeno pedaço de algo.
+- trapo.noun - pedaço de tecido velho e/ou desgastado.
+- troféu.noun - objeto dado aos vencedores; símbolo de vitória; adorno que marca um determinado feito.
+- tubo.noun - qualquer objeto em formato cilíndrico onde pode passar algum tipo de líquido, gás, etc.
+- túmulo.noun - Jazigo, lugar onde as pessoas são enterradas.
+- turíbulo.noun - vaso suspenso por correntes, usado para a queima de incenso.
+- tv.noun - aparelho que transmite conteúdo audiovisual através de uma tela plana.
+- urinol.noun - Vaso que substitui o vaso sanitário.
+- varal.noun - artefato no qual se penduram roupas, podendo consistir de um fio esticado, ou de uma série de varas de metal presas em uma mesma estrutura.
+- vassoura.noun - instrumento de limpeza com cerdas que são usadas para varrer ou limpar superfícies.
+- video game.noun - video-game.
+- video-game.noun - video-game.
+
+You must cross-reference EVERY proposed lemma against this list before including it in your response.
+
+STRICT REQUIREMENTS:
+1) Language: pt-BR lemmas only (avoid Europeanisms unless also common in Brazil).
+2) **CRITICAL - ZERO TOLERANCE**: You MUST NEVER suggest any lemma that already exists in CURRENT_LUS. This is a CRITICAL ERROR that invalidates the entire response. 
+   - Compare case-insensitively by lemma+POS (e.g., "comprar.VERB" matches "Comprar.VERB")
+   - Avoid near-duplicates and morphological variants (e.g., compra.NOUN vs compras.NOUN)
+   - Before finalizing each suggestion, MANDATORY cross-check against the complete CURRENT_LUS list
+   - If you cannot generate TARGET_N unique suggestions due to overlap with existing LUs, provide fewer and explain in excluded_notes
+3) **CRITICAL**: Output EXACTLY TARGET_N suggestions when possible. Do not output fewer unless absolutely impossible due to frame constraints OR duplicate avoidance. If you must provide fewer, explain thoroughly in excluded_notes why TARGET_N suggestions cannot be generated.
+4) Each suggestion MUST plausibly evoke the TARGET_FRAME given its DEFINITION and the exemplars in CURRENT_LUS.
+   - If a candidate typically evokes a DIFFERENT frame (e.g., Causation vs Commerce_buy), exclude it.
+5) **POS restriction**: Only return lemmas tagged with the following POS: VERB, NOUN, ADJ.
+   - Do NOT include ADV, interjections, or function words.
+   - Do NOT output MWEs (multiword expressions). Only single-word lemmas are valid.
+6) Prefer contemporary, common lemmas; avoid archaic, highly regional, or named-entity items unless frame-typical.
+7) Lemmatize (singular for nouns; masculine singular for adjectives; infinitive for verbs).
+8) Sense is crucial: if the lemma is polysemous, ensure the proposed sense matches the TARGET_FRAME (note that in `sense_note`).
+9) Provide one SHORT example sentence in pt-BR for each LU that clearly instantiates the TARGET_FRAME.
+10) Format the output as a single JSON object matching the SCHEMA below. No prose outside JSON.
+
+QUALITY CHECKS:
+- Calibrate coverage: include hyponyms, near-synonyms, and derivationally related forms that evoke the same frame.
+- Assign a confidence in [0,1] based on sense reliability in the target frame.
+- If you must include borderline items, keep confidence ≤ 0.6 and explain briefly in `rationale_short`.
+
+MANDATORY VALIDATION BEFORE OUTPUT:
+1. Review each proposed lemma in your JSON response
+2. Cross-check each lemma.POS combination against the CURRENT_LUS list (case-insensitive)
+3. Remove any matches or near-duplicates immediately
+4. If removal reduces suggestions below TARGET_N, explain in excluded_notes
+5. Double-check that no suggested lemma appears in CURRENT_LUS
+
+SCHEMA (JSON):
+{
+  "frame": "Artefato",
+  "total": 10,
+  "items": [
+    {
+      "lemma": "<pt-BR lemma in canonical form>",
+      "pos": "NOUN",
+      "mwe": false,
+      "gloss_pt": "<one-line sense aligned to the frame>",
+      "example_pt": "<short sentence showing the frame usage>",
+      "sense_note": "<disambiguate if polysemous; why this evokes the frame>",
+      "rationale_short": "<why this fits; link to core participants or prototypical scenarios>",
+      "confidence": <0.0-1.0>
+    }
+  ],
+  "excluded_notes": "<if fewer than TARGET_N, say why (e.g., frame is narrow)>"
+}
+
+Return only this JSON.

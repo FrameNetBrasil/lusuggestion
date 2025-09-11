@@ -1,0 +1,107 @@
+{
+  "frame": "Artefato",
+  "total": 10,
+  "items": [
+    {
+      "lemma": "objeto",
+      "pos": "NOUN",
+      "mwe": false,
+      "gloss_pt": "coisa criada pelo homem para servir a um fim específico",
+      "example_pt": "O objeto foi projetado para facilitar a vida do usuário.",
+      "sense_note": "",
+      "rationale_short": "evoca o frame de artefato por ser uma coisa criada pelo homem",
+      "confidence": 1.0
+    },
+    {
+      "lemma": "aparelho",
+      "pos": "NOUN",
+      "mwe": false,
+      "gloss_pt": "dispositivo mecânico ou eletrônico projetado para realizar uma função específica",
+      "example_pt": "O aparelho foi criado para ajudar pessoas com deficiência.",
+      "sense_note": "",
+      "rationale_short": "evoca o frame de artefato por ser um dispositivo projetado para realizar uma função",
+      "confidence": 1.0
+    },
+    {
+      "lemma": "máquina",
+      "pos": "NOUN",
+      "mwe": false,
+      "gloss_pt": "dispositivo mecânico que realiza trabalho ou transforma energia",
+      "example_pt": "A máquina foi projetada para aumentar a produtividade.",
+      "sense_note": "",
+      "rationale_short": "evoca o frame de artefato por ser um dispositivo mecânico",
+      "confidence": 1.0
+    },
+    {
+      "lemma": "instrumento",
+      "pos": "NOUN",
+      "mwe": false,
+      "gloss_pt": "dispositivo projetado para realizar uma função específica, geralmente relacionada à música ou medicina",
+      "example_pt": "O instrumento foi criado para ajudar a curar doenças.",
+      "sense_note": "",
+      "rationale_short": "evoca o frame de artefato por ser um dispositivo projetado para realizar uma função",
+      "confidence": 1.0
+    },
+    {
+      "lemma": "dispositivo",
+      "pos": "NOUN",
+      "mwe": false,
+      "gloss_pt": "aparelho ou máquina projetada para realizar uma função específica",
+      "example_pt": "O dispositivo foi criado para facilitar a vida do usuário.",
+      "sense_note": "",
+      "rationale_short": "evoca o frame de artefato por ser um aparelho projetado para realizar uma função",
+      "confidence": 1.0
+    },
+    {
+      "lemma": "equipamento",
+      "pos": "NOUN",
+      "mwe": false,
+      "gloss_pt": "conjunto de dispositivos ou máquinas projetadas para realizar uma função específica",
+      "example_pt": "O equipamento foi criado para ajudar a aumentar a produtividade.",
+      "sense_note": "",
+      "rationale_short": "evoca o frame de artefato por ser um conjunto de dispositivos projetados para realizar uma função",
+      "confidence": 1.0
+    },
+    {
+      "lemma": "aplicativo",
+      "pos": "NOUN",
+      "mwe": false,
+      "gloss_pt": "programa de computador projetado para realizar uma função específica",
+      "example_pt": "O aplicativo foi criado para ajudar a organizar a vida do usuário.",
+      "sense_note": "",
+      "rationale_short": "evoca o frame de artefato por ser um programa de computador projetado para realizar uma função",
+      "confidence": 1.0
+    },
+    {
+      "lemma": "software",
+      "pos": "NOUN",
+      "mwe": false,
+      "gloss_pt": "conjunto de programas de computador projetados para realizar uma função específica",
+      "example_pt": "O software foi criado para ajudar a aumentar a produtividade.",
+      "sense_note": "",
+      "rationale_short": "evoca o frame de artefato por ser um conjunto de programas de computador projetados para realizar uma função",
+      "confidence": 1.0
+    },
+    {
+      "lemma": "hardware",
+      "pos": "NOUN",
+      "mwe": false,
+      "gloss_pt": "conjunto de dispositivos ou máquinas projetadas para realizar uma função específica",
+      "example_pt": "O hardware foi criado para ajudar a aumentar a produtividade.",
+      "sense_note": "",
+      "rationale_short": "evoca o frame de artefato por ser um conjunto de dispositivos projetados para realizar uma função",
+      "confidence": 1.0
+    },
+    {
+      "lemma": "sistema",
+      "pos": "NOUN",
+      "mwe": false,
+      "gloss_pt": "conjunto de dispositivos ou máquinas projetadas para realizar uma função específica",
+      "example_pt": "O sistema foi criado para ajudar a aumentar a produtividade.",
+      "sense_note": "",
+      "rationale_short": "evoca o frame de artefato por ser um conjunto de dispositivos projetados para realizar uma função",
+      "confidence": 1.0
+    }
+  ],
+  "excluded_notes": ""
+}

@@ -1,0 +1,41 @@
+Você é um linguista especialista em FrameNet trabalhando com classificação semântica de palavras em português brasileiro.
+
+TAREFA: Gerar exatamente 10 palavras diferentes que representem o conceito de ARTEFATO.
+
+DEFINIÇÃO DO FRAME "Artefato":
+Um objeto feito ou modificado por humanos para ter uma função específica. Pode ser físico (como uma mesa, caneta, computador) ou não-físico (como um software, aplicativo, sistema).
+
+EXEMPLOS de palavras que pertencem ao frame Artefato:
+- ferramenta (objeto para fazer trabalhos)
+- utensílio (objeto doméstico útil)
+- equipamento (conjunto de objetos para uma função)
+- dispositivo (aparelho com função específica)
+- instrumento (objeto para executar tarefas)
+
+INSTRUÇÕES:
+1. Proponha 10 palavras DIFERENTES em português brasileiro
+2. Cada palavra deve ser um SUBSTANTIVO no singular
+3. Cada palavra deve representar algo feito por humanos com uma função
+4. Inclua tanto objetos físicos quanto não-físicos
+5. Use apenas uma palavra por item (sem expressões compostas)
+6. Forneça a resposta no formato JSON exato especificado abaixo
+
+FORMATO DE RESPOSTA (copie exatamente esta estrutura):
+{
+  "frame": "Artefato",
+  "total": 10,
+  "palavras": [
+    {"palavra": "exemplo1", "tipo": "físico", "explicacao": "breve explicação da função"},
+    {"palavra": "exemplo2", "tipo": "não-físico", "explicacao": "breve explicação da função"},
+    {"palavra": "exemplo3", "tipo": "físico", "explicacao": "breve explicação da função"},
+    {"palavra": "exemplo4", "tipo": "físico", "explicacao": "breve explicação da função"},
+    {"palavra": "exemplo5", "tipo": "não-físico", "explicacao": "breve explicação da função"},
+    {"palavra": "exemplo6", "tipo": "físico", "explicacao": "breve explicação da função"},
+    {"palavra": "exemplo7", "tipo": "físico", "explicacao": "breve explicação da função"},
+    {"palavra": "exemplo8", "tipo": "não-físico", "explicacao": "breve explicação da função"},
+    {"palavra": "exemplo9", "tipo": "físico", "explicacao": "breve explicação da função"},
+    {"palavra": "exemplo10", "tipo": "físico", "explicacao": "breve explicação da função"}
+  ]
+}
+
+IMPORTANTE: Substitua "exemplo1", "exemplo2", etc. por palavras reais diferentes. Não repita palavras.

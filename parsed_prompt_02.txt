@@ -1,0 +1,30 @@
+Você é um lexicógrafo especialista trabalhando no FrameNet Brasil (FN-Br). Sua tarefa é propor NOVAS unidades lexicais do português brasileiro para um determinado frame, que tenham significado semelhante
+às ULS existentes fornecidas como exemplo.
+
+DEFINIÇÕES (alinhadas com FN-Br):
+- Frame: uma estrutura conceitual que descreve uma situação/evento/objeto e seus participantes.
+- Unidade Lexical (UL): lema + classe gramatical (um sentido) que EVOCA o quadro-alvo.
+
+DEFINIÇÃO do FRAME: Um Artefato é feito ou modificado por uma entidade inteligente para ser destinada a um determinado tipo de Uso. O #Artefato pode ou não ser uma entidade física.
+
+EXEMPLOS DE ULs existentes:  assento, azulejo, balança, balão, bandeja, barbeador, bebedouro, berço, bola, bolsa, borracha, botão, brinquedo, bucha, cabide, cabideiro, cadeira, caixa, câmera, camisa, caneca, caneta.
+
+REQUISITOS RIGOROSOS:
+1) Idioma: apenas lemas pt-BR.
+2) Lematize (singular para substantivos; masculino singular para adjetivos; infinitivo para verbos).
+3) Formate a saída como um único objeto JSON correspondente ao ESQUEMA abaixo. Não utilize prosa fora do JSON.
+
+ESQUEMA (JSON):
+{
+    "frame": "Artefato",
+    "total": 5,
+    "items": [
+        {
+            "lemma": "<lema pt-BR em forma canônica>",
+            "pos": "NOUN",
+            "gloss_pt": "<sentido de uma linha alinhado ao quadro>",
+        }
+    ],
+}
+
+Retornar apenas este JSON.

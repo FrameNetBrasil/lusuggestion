@@ -1,0 +1,139 @@
+Você é um lexicógrafo especialista trabalhando no FrameNet Brasil (FN-Br).
+Sua tarefa é propor NOVAS unidades lexicais (ULs) do português brasileiro para um determinado quadro.
+
+DEFINIÇÕES (alinhadas com FN-Br):
+- Quadro: uma estrutura conceitual que descreve uma situação/evento/objeto e seus participantes.
+- Unidade Lexical (UL): lema + classe gramatical (um sentido) que EVOCA o quadro-alvo.
+- ELs centrais vs. periféricas não são necessárias na saída, mas use-as implicitamente para julgar o alinhamento de sentido.
+
+⚠️ UNIDADES LEXICAIS EXISTENTES A EVITAR (CRÍTICAS) ⚠️
+As seguintes ULs já existem para este quadro e DEVEM SER COMPLETAMENTE EVITADAS:
+- anilha.noun - placa de peso plana e pesada, geralmente feita de ferro fundido
+- anilha.noun - objeto antigo que pode ter valor histórico ou emocional.
+- arame.noun - fio de metal flexível.
+- aspirador.noun - Eletrodoméstico projetado para a limpeza usando sucção para realizar a limpeza.
+- assento.noun - lugar onde se possa sentar
+- azulejo.noun - revestimento para paredes
+- balança.noun - instrumento que mede a massa de um corpo.
+- balão.noun - objeto inflável de borracha, geralmente usado como adorno em festas
+- bandagem.substantivo
+- bandeja.noun - objeto utilizado para carregar comidas, servir convidado em uma festa. Normalmente é feito de plástico ou metal.
+- barbeador.substantivo
+- barrote.noun - peça alongada de madeira ou outro material, muitas vezes utilizada em construção ou para fins de sustentação.
+- bastão.noun - longo pedaço de pau redondo, que se pode segurar na mão e que tem funcionalidades diversas.
+- bebedouro.noun - Fonte artificial de água, muito utilizada em prédios públicos.
+- berço.noun - estrutura projetada para acomodar um bebê ou criança pequena para dormir, geralmente cercada por grades para segurança.
+- bico de mamadeira.substantivo
+- bola.noun - brinquedo esférico inflado, feito de borracha ou outros materiais
+- bolsa.noun - objeto utilizado para guardar e carregar outros objetos menores. Normalmente é pesado no ombro ou nas mãos.
+- bomba de ar.noun - dispositivo mecânico portátil utilizado para comprimir e transferir ar para dentro de objetos infláveis, como pneus de bicicleta, bolas esportivas, colchões de ar, entre outros.
+- boneco de olinda.noun - boneco gigante confeccionado com papel machê, fibra, tecido e outros materiais utilizados nos desfiles de carnaval de Olinda, representando personagens históricos, míticos ou contemporâneos.
+- borracha.noun - material flexível com diversos usos
+- botão.noun - peça de comando de um mecanismo ou de um aparelho elétrico.
+- brasão.noun - Conjunto de sinais, insígnias e ornamentos do escudo de um Estado, uma cidade, uma família.
+- brinquedo.noun - objeto ou atividade lúdica voltada ao lazer e geralmente associada com crianças.
+- bucha.substantivo
+- cabide.noun - instrumento para pendurar roupas
+- cabideiro.noun - Móvel com cabides, usado para pendurar roupa.
+- cadeira.noun - Objeto usado para sentar.
+- caixa.noun - recipiente normalmente cúbico ou retangular para armazenamento de itens diversos
+- câmera.noun - Aparelho óptico composto por lentes capazes de captar luzes externas para sensibilizar uma superfície sensível - um filme ou um sensor - onde se registram imagens paradas ou em movimento.
+- camisa.substantivo
+- caneca.noun - recipiente para líquidos, dotado de uma asa, utilizado sem o acompanhamento de pires.
+- caneta.substantivo
+- cinematógrafo.noun - equipamento criado no fim do século XIX, capaz de registrar uma sequência de objetos em movimento e reproduzi-la.
+-coberto.noun - pano utilizado para cobrir camas e pessoas.
+- cobertor.noun - pano utilizado para cobrir camas e pessoas.
+- coletor.noun - utensílio em plástico ou borracha, para fins de recolhimento de excreções ou fluxo menstrual
+- colher.noun - talher em formato esférico e côncavo utilizado para pegar alimentos
+- computador.noun - equipamento eletrônico para processamento de dados
+- concha.noun - Utensílio utilizado na cozinha para pegar ingredientes.
+- controle.noun - Dispositivo utilizado para acionar ou dar comandos.
+- copo.noun - recipiente cilíndrico aberto
+- cotonete.noun - pequeno bastão com algodão nas extremidades, usado para limpar ou aplicar substâncias em áreas sensíveis do corpo.
+- cruz.noun - Pedaços de madeira postos em posição perpendicular.
+- dispensador.noun - dispositivo para distribuir um produto, geralmente em doses ou quantidades pequenas ou uniformes
+- enfeite.noun - O que pode ser utilizado para enfeitar; ornamento.
+- enxada.noun - Instrumento com uma lâmina de metal usado para capinar ou arar a terra.
+- escada.noun - construção normalmente em madeira, alvenaria ou metal, utilizada para subirmos a determinada altura ou pavimento
+- escova de cabelo.noun - objeto com cerdas utilizado para desembaraçar e modelar cabelos.
+- escova de dente.noun - objeto de higiene pessoal utilizado para limpeza dos dentes.
+- escudo.noun - Peça de armadura utilizada no braço para proteger um combatente de ataques inimigos.
+- espelho.noun - artefato utilizado para reflexão de imagens.
+- fio.noun - objeto comprido utilizado para costurar ou anexar coisas
+- fivela.noun - peça de formato variado que serve para unir as duas extremidades de cinto, correia etc.
+- fogo de artifício.noun - explosivos de efeito pirotécnico utilizados em certos festejos.
+- fósforo.noun - Pequeno palito de madeira com a ponta de material inflamável.
+- fralda.noun - item descartável de uso do bebê ou do indivíduo adulto para suporte de dejetos e urina
+- frasco.noun - recipiente normalmente de vidro ou plástico, utilizado para armazenar líquidos
+- frigideira.noun - tipo de panela com um formato mais plano e baixo.
+- garrafa.noun - recipiente cilíndrico normalmente em vidro ou plástico utilizado para armazenamento de líquidos
+- hélice.noun - Hastes conectadas em um mesmo centro que provocam a movimentação do ar e/ou movimento.
+- impressora.noun - máquina que realiza cópias e impressões, geralmente é  pequena e é possível que se tenha em residências para uso doméstico. 
+- internet.noun - transmissão de um sinal que interliga computadores, celulares e outros aparelhos eletrônicos em uma rede de comunicação por todo o mundo.  
+- interruptor.noun - Dispositivo pelo qual se interrompe (de forma reversível) a passagem de um sinal em um circuito elétrico ou eletrônico.
+- irrigador.noun - utensílio de jardim utilizado para promover a irrigação de plantas.
+- janela.noun - abertura em imóveis, revestida de madeira, vidro ou outros materiais, para ventilação do ambiente e entrada de luz solar
+- lâmina.noun - Placa ou chapa de metal.
+- lampião.noun - lanterna, portátil ou fixa, constituída por um botijão provido de combustível e um pavio que se acende para iluminar.
+- lança.noun - artefato caracterizado por ser uma arma longa com pontas afiadas que pode ser empunhada ou arremessada. 
+- lanterna.noun - Utensilio projetado com vidros que projeta luz.
+- lata.noun - recipiente metálico para armazenamento de bebidas, alimentos ou outras substâncias
+- laurel.noun - coroa de louros, feita com folhas de loureiros.
+- lenço.noun - pedaço geralmente quadrado oou retangular de tecido ou papel com que uma pessoa limpa o suor do rosto ou assoa o nariz.
+- lençol.noun - artefato feito de tecido utilizado para cobrir pessoas e/ou objetos
+- lente.noun
+- leque.noun - Abano feito de material leve.
+- linha.noun - fio fino de fibras como algodão, linho, etc, torcidas.
+- lupa.noun - instrumento óptico que amplia imagens
+- luva cirúrgica.noun - objeto plástico de uso médico para preservação contra infecções na manipulação de  materiais variados.
+
+Você deve cruzar TODOS os lemas propostos com esta lista antes de incluí-los em sua resposta.
+
+REQUISITOS RIGOROSOS:
+1) Idioma: apenas lemas pt-BR (evite europeísmos, a menos que também sejam comuns no Brasil).
+2) **CRÍTICO - TOLERÂNCIA ZERO**: Você NUNCA DEVE sugerir qualquer lema que já exista em CURRENT_LUS. Este é um ERRO CRÍTICO que invalida toda a resposta.
+- Compare sem diferenciação de maiúsculas e minúsculas por lema+POS (ex.: "comprar.VERBO" corresponde a "Comprar.VERBO")
+- Evite duplicatas e variantes morfológicas (ex.: compra.SUBSTANTIVO vs. compras.SUBSTANTIVO)
+- Antes de finalizar cada sugestão, OBRIGATÓRIAMENTE faça uma verificação cruzada com a lista completa de LUs_ATUAL
+- Se você não puder gerar LUs_TARGET_N sugestões únicas devido à sobreposição com LUs existentes, forneça menos sugestões e explique em notas_excluídas
+3) **CRÍTICO**: Produza EXATAMENTE LUs_TARGET_N sugestões quando possível. Não produza menos sugestões, a menos que seja absolutamente impossível devido a restrições de quadro OU prevenção de duplicatas. Se você precisar fornecer menos sugestões, explique detalhadamente em notas_excluídas por que LUs_TARGET_N sugestões não podem ser geradas.
+4) Cada sugestão DEVE evocar plausivelmente o QUADRO_TARGET, dada sua DEFINIÇÃO e os exemplares em LUs_ATUAL.
+- Se um candidato normalmente evoca um quadro DIFERENTE (por exemplo, Causalidade vs. Comércio_comprar), exclua-o.
+5) **Restrição de POS**: Retorne apenas lemas marcados com os seguintes POS: VERBO, SUBSTANTIVO, ADJ.
+- NÃO inclua ADV, interjeições ou palavras funcionais.
+- NÃO produza MWEs (expressões com várias palavras). Somente lemas de uma única palavra são válidos.
+6) Prefira lemas contemporâneos e comuns; evite itens arcaicos, altamente regionais ou de entidades nomeadas, a menos que sejam típicos do quadro.
+7) Lematize (singular para substantivos; masculino singular para adjetivos; infinitivo para verbos).
+8) O sentido é crucial: se o lema for polissêmico, certifique-se de que o sentido proposto corresponda ao QUADRO_ALVO (observe isso em `sense_note`).
+9) Forneça uma frase de exemplo CURTA em pt-BR para cada LU que instancie claramente o TARGET_FRAME.
+10) Formate a saída como um único objeto JSON correspondente ao ESQUEMA abaixo. Não utilize prosa fora do JSON.
+
+VERIFICAÇÕES DE QUALIDADE:
+- Calibrar a cobertura: incluir hipônimos, quase sinônimos e formas derivacionalmente relacionadas que evocam o mesmo quadro.
+- Atribuir uma confiança em [0,1] com base na confiabilidade do sentido no quadro alvo.
+- Se você precisar incluir itens limítrofes, mantenha a confiança ≤ 0,6 e explique brevemente em `rationale_short`.
+
+VALIDAÇÃO OBRIGATÓRIA ANTES DA SAÍDA:
+1. Revise cada lema proposto em sua resposta JSON
+2. Compare cada combinação lema-POS com a lista CURRENT_LUS (sem distinção entre maiúsculas e minúsculas)
+3. Remova imediatamente quaisquer correspondências ou quase duplicatas
+4. Se a remoção reduzir as sugestões abaixo de TARGET_N, explique em excluded_notes
+5. Verifique novamente se nenhum lema sugerido aparece em CURRENT_LUS
+
+ESQUEMA (JSON):
+{
+    "frame": "Artefato",
+    "total": 5,
+    "items": [
+        {
+            "lemma": "<lema pt-BR em forma canônica>",
+            "pos": "NOUN",
+            "mwe": false,
+            "gloss_pt": "<sentido de uma linha alinhado ao quadro>",
+        }
+    ],
+    "excluded_notes": "<se for menor que TARGET_N, diga o porquê (por exemplo, o quadro é estreito)>"
+}
+
+Retornar apenas este JSON.

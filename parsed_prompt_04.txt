@@ -1,0 +1,39 @@
+You are an expert lexicographer working on FrameNet Brasil (FN-Br).
+Your task is to propose NEW Brazilian Portuguese lexical units (LUs) for a given frame.
+
+FRAME DEFINiTION: Um #Artefato é feito ou modificado por uma entidade inteligente para ser destinada a um determinado tipo de #Uso. Várias propriedades do #Artefato podem ser especificadas, como seu #Criador, o #Tempo_de_criação, #Nome, #Tipo e o #Material do qual ele é composto. O #Artefato pode ou não ser uma entidade física.
+
+⚠️  EXISTING LEXICAL UNITS TO AVOID (CRITICAL) ⚠️
+The following LUs already exist for this frame and MUST BE COMPLETELY AVOIDED:
+anilha,antiguidade,arame,aspirador,assento,azulejo,balança,balão,bandagem,bandeja,barbeador,barrote,bastão,bebedouro,berço,bico de mamadeira,bola,bolsa,bomba de ar,boneco de olinda,borracha,botão,brasão,brinquedo,bucha,cabide,cabideiro,cadeira,caixa,câmera,camisa,caneca,caneta,capacho,capote,carga,carrinho,carta,cartão,cartela,castiçal,catálogo,celular,cerâmica,chupeta,chuveiro,cinematógrafo,coberta,cobertor,coletor,colher,computador,concha,controle,copo,cotonete,cruz,dispensador,enfeite,enxada,escada,escova de cabelo,escova de dente,escudo,espelho,esteira,estilete,estufa,extensão,fio,fivela,fogo de artifício,fósforo,fralda,frasco,frigideira,garrafa,geladeira,gerador,gilete,guarda-chuva,guarda-sol,guardanapo,hélice,impressora,internet,interruptor,irrigador,janela,lâmina,lampião,lança,lanterna,lata,laurel,lenço,lençol,lente,leque,linha,lupa,luva cirúrgica,mala,manual,mármore,megafone,mesa,mesa,microfone,mochila,mola,molde,montanha russa,muro,origami,paleta,pano de prato,pano,panos,papel toalha,papel,pau de selfie,pilão,pincel,pintura,pipa,placa,plaqueta,pneu,pochete,poleiro,porta,portão,poste,pote,prato,preservativo,prisma,projetor,quadro,quinquilharia,ralo,rede,relógio,roda,roleta,sabonete,semáforo,sinal,sousplat,tampa,tecnologia,tela,telefone,televisão,terço,tesoura,tesouro,tijolo,toboágua,toco,trapo,troféu,tubo,túmulo,turíbulo,tv,urinol,varal,vassoura,video game,video-game,
+
+STRICT REQUIREMENTS:
+1) Language: brazilian portugues.
+2) **CRITICAL - ZERO TOLERANCE**: You MUST NEVER suggest any lemma that already exists in CURRENT_LUS. This is a CRITICAL ERROR that invalidates the entire response.
+3) **POS restriction**: Only return lemmas tagged with the following POS: VERB, NOUN, ADJ.
+4) Sense is crucial: if the lemma is polysemous, ensure the proposed sense matches the TARGET_FRAME (note that in `sense_note`).
+5) Accept lemmas only for these specific POS: NOUN.
+6) Don't accept mwe (multiword expression) lemma (lemmas must contain only one word).
+7) Don't accept lemmas that are not in the dictionary.
+6) Format the output as a single JSON object matching the SCHEMA below. No prose outside JSON.
+
+MANDATORY VALIDATION BEFORE OUTPUT:
+1. Review each proposed word in your JSON response
+2. Cross-check each word combination against the CURRENT_LUS list (case-insensitive)
+3. Remove any matches
+
+SCHEMA (JSON):
+{
+  "frame": "Artefato",
+  "total": 15,
+  "items": [
+    {
+      "lemma": "<pt-BR lemma in canonical form>",
+      "pos": "NOUN",
+      "mwe": false,
+      "gloss_pt": "<one-line sense aligned to the frame>",
+    }
+  ],
+}
+
+Return only this JSON.
