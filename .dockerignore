@@ -1,0 +1,124 @@
+# FrameNet LU Generator Docker Ignore File
+# Exclude unnecessary files from Docker build context
+
+# Models directory (too large for build context)
+models/
+*.gguf
+*.bin
+*.safetensors
+
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Git files
+.git/
+.gitignore
+.gitattributes
+
+# Documentation and development files
+docs/
+CHANGELOG*
+LICENSE*
+# Keep README.md for setup.py
+!README.md
+
+# Test files
+test/
+tests/
+*_test.py
+test_*.py
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+logs/
+
+# Jupyter Notebook files
+*.ipynb
+.ipynb_checkpoints
+
+# Development and output files
+*_output.json
+results/
+output/
+
+# Docker files (except what we need)
+docker-compose.override.yml
+docker-compose.*.yml
+!docker-compose.yml
+
+# CI/CD files
+.github/
+.gitlab-ci.yml
+.travis.yml
+Jenkinsfile
+
+# Local configuration files
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Backup files
+*.bak
+*.backup
+*~

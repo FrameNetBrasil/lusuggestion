@@ -1,0 +1,21 @@
+# FrameNet LU Generator API Requirements
+# Core dependencies for the Flask API and LLM inference
+
+# Flask web framework
+flask==2.3.3
+werkzeug==2.3.7
+
+# LLM inference dependencies
+llama-cpp-python==0.3.16
+huggingface_hub==0.29.2
+
+# Core Python libraries
+numpy==1.26.4
+typing-extensions==4.12.2
+
+# Utilities
+tqdm==4.67.1
+requests==2.32.3
+
+# JSON handling
+diskcache==5.6.3
